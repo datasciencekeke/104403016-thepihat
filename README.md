@@ -55,7 +55,7 @@ With a service like [PushBullet](https://www.pushbullet.com), the Pi can send pu
 2. Sensor warm-up: Both sensors' datasheet and tutorials mention the neccessity of warming up the sensors.
 3. Since the Arduino serial output is constant, if I add too many sleep functions in the python code, the code will break since we take in the data by lines. I added a check for irregular values to reset the counter so the program remains functional. This only works since the values from our sensors are in entirely different units.
 
-#Images
-You can find some picture of the project [here](https://imgur.com/gallery/9UI624L).
+# Images
+You can find some pictures of the project [here](https://imgur.com/gallery/9UI624L).
 - The last two images are examples of PushBullet notifications. You'll be notified wherever you have the PushBullet services ready.
 - Totally ignore the MCP3008 chips that are just there and contribute nothing but are there because I'll probably lose them if I didn't stick it on there.
