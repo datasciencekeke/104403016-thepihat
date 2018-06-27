@@ -1,6 +1,8 @@
 # IoT final project: *The PiHat*
 The PiHat is a smart hat that goes on your head and warns you of the unseen dangers of your surroundings. It also looks cool with LEDs on the top.
 
+Video demo: https://youtu.be/J_d2XaVbP9c
+
 ## Sensors
 ### UV sensor
 Being on the top of a hat, the UV light sensor is the primary sensor of this project. The [GY-8511](https://www.taiwaniot.com.tw/product/gy-8511紫外線感測器模組-gy-ml8511-模擬量輸出uv-sensor-breakout/) is a breakout board for the ML8511. It outputs an analogue signal that corresponds with the amount of UV light detected. The sensor detects 290-380 nm light, which is categorized as part of the UVB (burning rays) spectrum and most of the UVA (tanning rays) spectrum. Since it outputs an analogue signal, an ADC like the MCP3008 is required.
